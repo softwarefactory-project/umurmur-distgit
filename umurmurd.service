@@ -1,0 +1,12 @@
+[Unit]
+Description=Minimalistic Murmur server
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+User=umurmurd
+Type=simple
+ExecStart=/usr/bin/umurmurd -d -c /etc/umurmurd/umurmurd.conf
+
+[Install]
+WantedBy=multi-user.target
