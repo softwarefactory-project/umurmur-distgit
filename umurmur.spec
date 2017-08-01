@@ -1,5 +1,5 @@
 Name:           umurmur
-Version:        0.2.16
+Version:        0.2.17
 Release:        1%{?dist}
 Summary:        Minimalistic Murmur server
 
@@ -76,5 +76,8 @@ exit 0
 
 
 %changelog
+* Tue Aug 01 2017 Tristan Cacqueray <tdecacqu@redhat.com> - 0.2.17-1
+- Bump to 0.2.17
+
 * Fri Feb 17 2017 Tristan Cacqueray <tdecacqu@redhat.com> - 0.2.16-1
 - Initial packaging
